@@ -16,7 +16,7 @@ def is_exact_number_string(input):
             return string_numbers.index(s_number)+1
     return 0
 def load_file():
-    with open('day1.txt') as input_file:
+    with open(r'') as input_file:
         for line in input_file:
             entries.append(line.replace("\n", ""))
 
